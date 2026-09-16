@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Liên hệ</title>
+  <style>
+    h1 {
+      color: #008000;
+    }
+
+    form {
+      max-width: 400px;
+      margin-top: 16px;
+    }
+
+    label {
+      display: block;
+      margin-top: 12px;
+      margin-bottom: 4px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 6px;
+      box-sizing: border-box;
+    }
+
+    button {
+      margin-top: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Liên hệ với Steven</h1>
+  <p>Đây là trang liên hệ của website thực hành Claude Code.</p>
+
+  <h2>Thông tin liên hệ</h2>
+  <form>
+    <label for="hoTen">Họ và tên</label>
+    <input type="text" id="hoTen" name="hoTen">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email">
+
+    <label for="soDienThoai">Số điện thoại</label>
+    <input type="tel" id="soDienThoai" name="soDienThoai">
+
+    <label for="noiDung">Nội dung liên hệ</label>
+    <textarea id="noiDung" name="noiDung" rows="4"></textarea>
+
+    <button type="button" onclick="document.getElementById('xacNhanLienHe').textContent = 'Cảm ơn bạn đã gửi liên hệ!'">Gửi liên hệ</button>
+    <p id="xacNhanLienHe"></p>
+  </form>
+
+  <p><a href="index.html">Trang chủ</a></p>
+</body>
+</html>

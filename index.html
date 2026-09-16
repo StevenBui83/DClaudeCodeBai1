@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Trang đầu tiên</title>
+  <style>
+    body {
+      background-color: #ffffff;
+      color: #111111;
+      font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      max-width: 600px;
+      margin: 80px auto;
+      padding: 0 24px;
+      line-height: 1.6;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: #008000;
+      border-bottom: 2px solid #111111;
+      padding-bottom: 16px;
+      margin-bottom: 16px;
+    }
+
+    p {
+      font-size: 1.05rem;
+      color: #333333;
+    }
+
+    button {
+      background-color: #111111;
+      color: #ffffff;
+      border: 2px solid #111111;
+      padding: 12px 28px;
+      font-size: 1rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 8px;
+      transition: background-color 0.15s ease, color 0.15s ease;
+    }
+
+    button:hover {
+      background-color: #ffffff;
+      color: #111111;
+    }
+
+    #thongBao {
+      margin-top: 20px;
+      padding: 14px 18px;
+      border: 1px solid #111111;
+      border-radius: 4px;
+      font-weight: 500;
+      color: #111111;
+    }
+
+    #thongBao:empty {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Website Claude Code của Steven</h1>
+  <p>Đây là website thực hành xây dựng bằng Claude Code.</p>
+  <p>Tôi đang học cách xây dựng website bằng Claude Code</p>
+  <p>Đây là project thực hành học Claude Code của Steven.</p>
+  <button onclick="document.getElementById('thongBao').textContent = 'Chào mừng bạn đến với website của Steven!'">Tìm hiểu thêm</button>
+  <button>Liên hệ với Steven</button>
+  <p id="thongBao"></p>
+  <p><a href="about.html">Giới thiệu</a></p>
+  <p><a href="contact.html">Liên hệ</a></p>
+</body>
+</html>

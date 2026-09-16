@@ -1,0 +1,1 @@
+Folder này dùng để chứa hình ảnh cho website.
